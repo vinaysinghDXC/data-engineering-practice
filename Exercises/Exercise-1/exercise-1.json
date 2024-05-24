@@ -1,0 +1,235 @@
+{
+    "Id": "3cdf54f2d85c587b91e8af3bc0f227c2b43012df13988e2b3a49733c28b74e0f",
+    "Created": "2024-05-24T10:37:23.2281559Z",
+    "Path": "python3",
+    "Args": [
+        "-m",
+        "pytest"
+    ],
+    "State": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 1,
+        "Error": "",
+        "StartedAt": "2024-05-24T10:37:24.11898861Z",
+        "FinishedAt": "2024-05-24T10:37:24.142700023Z"
+    },
+    "Image": "sha256:009c94176ad6194aff07070085ee4c70f663d552af383bde85b1a4952a4763cc",
+    "ResolvConfPath": "/var/lib/docker/containers/3cdf54f2d85c587b91e8af3bc0f227c2b43012df13988e2b3a49733c28b74e0f/resolv.conf",
+    "HostnamePath": "/var/lib/docker/containers/3cdf54f2d85c587b91e8af3bc0f227c2b43012df13988e2b3a49733c28b74e0f/hostname",
+    "HostsPath": "/var/lib/docker/containers/3cdf54f2d85c587b91e8af3bc0f227c2b43012df13988e2b3a49733c28b74e0f/hosts",
+    "LogPath": "/var/lib/docker/containers/3cdf54f2d85c587b91e8af3bc0f227c2b43012df13988e2b3a49733c28b74e0f/3cdf54f2d85c587b91e8af3bc0f227c2b43012df13988e2b3a49733c28b74e0f-json.log",
+    "Name": "/exercise-1-test-1",
+    "RestartCount": 0,
+    "Driver": "overlay2",
+    "Platform": "linux",
+    "MountLabel": "",
+    "ProcessLabel": "",
+    "AppArmorProfile": "docker-default",
+    "ExecIDs": null,
+    "HostConfig": {
+        "Binds": [
+            "/workspaces/data-engineering-practice/Exercises/Exercise-1:/app:rw"
+        ],
+        "ContainerIDFile": "",
+        "LogConfig": {
+            "Type": "json-file",
+            "Config": {}
+        },
+        "NetworkMode": "exercise-1_default",
+        "PortBindings": {},
+        "RestartPolicy": {
+            "Name": "no",
+            "MaximumRetryCount": 0
+        },
+        "AutoRemove": false,
+        "VolumeDriver": "",
+        "VolumesFrom": null,
+        "ConsoleSize": [
+            0,
+            0
+        ],
+        "CapAdd": null,
+        "CapDrop": null,
+        "CgroupnsMode": "private",
+        "Dns": null,
+        "DnsOptions": null,
+        "DnsSearch": null,
+        "ExtraHosts": [],
+        "GroupAdd": null,
+        "IpcMode": "private",
+        "Cgroup": "",
+        "Links": null,
+        "OomScoreAdj": 0,
+        "PidMode": "",
+        "Privileged": false,
+        "PublishAllPorts": false,
+        "ReadonlyRootfs": false,
+        "SecurityOpt": null,
+        "UTSMode": "",
+        "UsernsMode": "",
+        "ShmSize": 67108864,
+        "Runtime": "runc",
+        "Isolation": "",
+        "CpuShares": 0,
+        "Memory": 0,
+        "NanoCpus": 0,
+        "CgroupParent": "",
+        "BlkioWeight": 0,
+        "BlkioWeightDevice": null,
+        "BlkioDeviceReadBps": null,
+        "BlkioDeviceWriteBps": null,
+        "BlkioDeviceReadIOps": null,
+        "BlkioDeviceWriteIOps": null,
+        "CpuPeriod": 0,
+        "CpuQuota": 0,
+        "CpuRealtimePeriod": 0,
+        "CpuRealtimeRuntime": 0,
+        "CpusetCpus": "",
+        "CpusetMems": "",
+        "Devices": null,
+        "DeviceCgroupRules": null,
+        "DeviceRequests": null,
+        "MemoryReservation": 0,
+        "MemorySwap": 0,
+        "MemorySwappiness": null,
+        "OomKillDisable": null,
+        "PidsLimit": null,
+        "Ulimits": null,
+        "CpuCount": 0,
+        "CpuPercent": 0,
+        "IOMaximumIOps": 0,
+        "IOMaximumBandwidth": 0,
+        "MaskedPaths": [
+            "/proc/asound",
+            "/proc/acpi",
+            "/proc/kcore",
+            "/proc/keys",
+            "/proc/latency_stats",
+            "/proc/timer_list",
+            "/proc/timer_stats",
+            "/proc/sched_debug",
+            "/proc/scsi",
+            "/sys/firmware",
+            "/sys/devices/virtual/powercap"
+        ],
+        "ReadonlyPaths": [
+            "/proc/bus",
+            "/proc/fs",
+            "/proc/irq",
+            "/proc/sys",
+            "/proc/sysrq-trigger"
+        ]
+    },
+    "GraphDriver": {
+        "Data": {
+            "LowerDir": "/var/lib/docker/overlay2/7d0868d12bf80da719e918b7a061869293a4bc54397776e3f7b610bc55dbfe08-init/diff:/var/lib/docker/overlay2/k8z3iuv6de8ikfi7b6yn9kao7/diff:/var/lib/docker/overlay2/aell5gqu256zph47noxmqjq5x/diff:/var/lib/docker/overlay2/ozfko8d0qm3gkg7tyjhns15d9/diff:/var/lib/docker/overlay2/a824c28042a872dd2e0e96ec2f0d6ea4db378c44f9fa442e9e48e9053e6709b1/diff:/var/lib/docker/overlay2/b4f5c2bb44d27366f804d871926adc878fbafffa1a2db8f74c989cfcbb56c739/diff:/var/lib/docker/overlay2/96900e52dcc7016a25ba1bb29ccee1cf4774fbc53050289e66df36129e58723c/diff:/var/lib/docker/overlay2/7e9b50e0c9060391ea567b5a1a7b115197e6a504fab849b37034032420f9a819/diff:/var/lib/docker/overlay2/e1df90c5fb23d00a3af0856bf5951983f7776afa1d7eb01b18dcae8bda86bf25/diff:/var/lib/docker/overlay2/ad3c6bbe6ed3e3c9dffeab321b0970d3753c7dae27b1a470a518d47c3d9e51f3/diff:/var/lib/docker/overlay2/a0d0da947ebc69de6960aea67557a24c234b4d6eec01c93ca1bd2fb6904b4fa0/diff:/var/lib/docker/overlay2/88d9576888db532c1763d8fa74928e6e592175664ea39f61d42fa992000ba7b5/diff",
+            "MergedDir": "/var/lib/docker/overlay2/7d0868d12bf80da719e918b7a061869293a4bc54397776e3f7b610bc55dbfe08/merged",
+            "UpperDir": "/var/lib/docker/overlay2/7d0868d12bf80da719e918b7a061869293a4bc54397776e3f7b610bc55dbfe08/diff",
+            "WorkDir": "/var/lib/docker/overlay2/7d0868d12bf80da719e918b7a061869293a4bc54397776e3f7b610bc55dbfe08/work"
+        },
+        "Name": "overlay2"
+    },
+    "Mounts": [
+        {
+            "Type": "bind",
+            "Source": "/workspaces/data-engineering-practice/Exercises/Exercise-1",
+            "Destination": "/app",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+        }
+    ],
+    "Config": {
+        "Hostname": "3cdf54f2d85c",
+        "Domainname": "",
+        "User": "",
+        "AttachStdin": false,
+        "AttachStdout": true,
+        "AttachStderr": true,
+        "Tty": false,
+        "OpenStdin": false,
+        "StdinOnce": false,
+        "Env": [
+            "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "LANG=C.UTF-8",
+            "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+            "PYTHON_VERSION=3.12.3",
+            "PYTHON_PIP_VERSION=24.0",
+            "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/dbf0c85f76fb6e1ab42aa672ffca6f0a675d9ee4/public/get-pip.py",
+            "PYTHON_GET_PIP_SHA256=dfe9fd5c28dc98b5ac17979a953ea550cec37ae1b47a5116007395bfacff2ab9"
+        ],
+        "Cmd": [
+            "python3",
+            "-m",
+            "pytest"
+        ],
+        "Image": "exercise-1",
+        "Volumes": null,
+        "WorkingDir": "/app",
+        "Entrypoint": null,
+        "OnBuild": null,
+        "Labels": {
+            "com.docker.compose.config-hash": "5bffe5c8f1251b6e0c5e3ae4fd88be2034f9bc83bd833cc11f0e1ae75d5d0be6",
+            "com.docker.compose.container-number": "1",
+            "com.docker.compose.depends_on": "",
+            "com.docker.compose.image": "sha256:009c94176ad6194aff07070085ee4c70f663d552af383bde85b1a4952a4763cc",
+            "com.docker.compose.oneoff": "False",
+            "com.docker.compose.project": "exercise-1",
+            "com.docker.compose.project.config_files": "/workspaces/data-engineering-practice/Exercises/Exercise-1/docker-compose.yml",
+            "com.docker.compose.project.working_dir": "/workspaces/data-engineering-practice/Exercises/Exercise-1",
+            "com.docker.compose.replace": "fe4f6494a01e69d332ebdfb871a5c4a9885dbefa22ab86a3498682f69c580b87",
+            "com.docker.compose.service": "test",
+            "com.docker.compose.version": "2.27.0"
+        }
+    },
+    "NetworkSettings": {
+        "Bridge": "",
+        "SandboxID": "b2c0d93937ff8793a88d23cda7e03218c1455ff61134d2963ae81d001e3144a8",
+        "SandboxKey": "/var/run/docker/netns/b2c0d93937ff",
+        "Ports": {},
+        "HairpinMode": false,
+        "LinkLocalIPv6Address": "",
+        "LinkLocalIPv6PrefixLen": 0,
+        "SecondaryIPAddresses": null,
+        "SecondaryIPv6Addresses": null,
+        "EndpointID": "",
+        "Gateway": "",
+        "GlobalIPv6Address": "",
+        "GlobalIPv6PrefixLen": 0,
+        "IPAddress": "",
+        "IPPrefixLen": 0,
+        "IPv6Gateway": "",
+        "MacAddress": "",
+        "Networks": {
+            "exercise-1_default": {
+                "IPAMConfig": null,
+                "Links": null,
+                "Aliases": [
+                    "exercise-1-test-1",
+                    "test"
+                ],
+                "MacAddress": "",
+                "NetworkID": "a891d821fa00ea271305993dfc51e1f9ded118e1b04fb0b4970b152d3123fb98",
+                "EndpointID": "",
+                "Gateway": "",
+                "IPAddress": "",
+                "IPPrefixLen": 0,
+                "IPv6Gateway": "",
+                "GlobalIPv6Address": "",
+                "GlobalIPv6PrefixLen": 0,
+                "DriverOpts": null,
+                "DNSNames": [
+                    "exercise-1-test-1",
+                    "test",
+                    "3cdf54f2d85c"
+                ]
+            }
+        }
+    }
+}
